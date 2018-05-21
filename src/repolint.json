@@ -4,7 +4,8 @@
       "editorconfig-file-exists:file-existence": ["error", {"files": [".editorconfig"]}],
       "license-file-exists:file-existence": ["error", {"files": ["LICENSE*", "COPYING*"]}],
       "readme-file-exists:file-existence": ["error", {"files": ["README*"]}],
-      "binaries-not-present:file-type-exclusion": ["error", {"type": ["**/*.exe", "**/*.dll", "!node_modules/**"]}]
+      "binaries-not-present:file-type-exclusion": ["error", {"type": ["**/*.exe", "**/*.dll", "!node_modules/**"]}],
+      "ideconfig-not-present:file-type-exclusion": ["error", {"type": [".vscode", "*.sublime-*"]}]
     }
   }
 }

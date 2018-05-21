@@ -21,7 +21,12 @@ These rules are from the base RepoLinter ruleset:
 
 These rules have been added:
 * [editorconfig-file-exists](#editorconfig-file-exists)
+* [ideconfig-not-present](#ideconfig-not-present)
 
 #### editorconfig-file-exists
 
 Fails if there isn't a file matching ```.editorconfig``` in the root of the target directory. For details of this file see [EditorConfig](http://editorconfig.org/).
+
+#### ideconfig-not-present
+
+Fails if `.vscode` or `*.sublime-*` files are in the target directory.
