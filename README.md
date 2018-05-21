@@ -2,9 +2,9 @@
 
 A RepoLinter Docker image to lint my open source projects.
 
-If you want to do the same then just clone the GitHub repo, change the `repolint.json` file in the `src` directory as appropriate and create your own Docker image.
+If you want to do the same then just fork [the GitHub repo](https://github.com/markbirbeck/my-repolinter), change the `repolint.json` file in the `src` directory as appropriate and create your own Docker image.
 
-More details can be found at [docker-repolint](https://github.com/markbirbeck/docker-repolinter). If you have any problems or suggestions then please raise them there.
+More details about the Docker image that this image is based on can be found at [docker-repolint](https://github.com/markbirbeck/docker-repolinter). If you have any problems or suggestions then please raise them there.
 
 And if you have other best practices that you want to share then please raise them here, through the issue-tracker. Thanks!
 
